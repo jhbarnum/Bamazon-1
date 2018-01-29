@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "node.js bamazon",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jok405/Bamazon.git"
+  },
+  "keywords": [
+    "bamazon"
+  ],
+  "author": "John Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jok405/Bamazon/issues"
+  },
+  "homepage": "https://github.com/jok405/Bamazon#readme"
+}
