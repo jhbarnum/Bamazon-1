@@ -1,4 +1,4 @@
-// ==========  Bamazon Node and MySQL App | Composed by John Kim | Univeristy of Richmond  ======================
+// ==========  Bamazon Node and MySQL App | Composed by John Kim | University of Richmond  ======================
 
 //      Required Dependencies
 var inquirer = require('inquirer');        // Inquirer node package
