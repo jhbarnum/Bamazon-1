@@ -1,9 +1,10 @@
 // ==========  Bamazon Node and MySQL App | Composed by John Kim | University of Richmond  ======================
 
 //      Required Dependencies
-var inquirer = require('inquirer');        // Inquirer node package
-var prompt = require('prompt');            // Prompt node package 
-var mysql = require('mysql');              // MySQL node package
+var inquirer = require('inquirer');             // Inquirer node package
+var prompt = require('prompt');                 // Prompt node package 
+var mysql = require('mysql');                   // MySQL node package
+var userDisplay = require('./userDisplay.js');  // User display
 
 var connection = mysql.createConnection({  // MySQL Database parameters
     host: "localhost",
@@ -68,3 +69,4 @@ function promptBuyer() {
     })
   })
 }
+
