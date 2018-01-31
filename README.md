@@ -45,7 +45,7 @@ Below are some screenshots that show the functionality of the app.
 
 
 
-#### Technologies Used:
+### Technologies Used:
 ***
 
 * Javascript
