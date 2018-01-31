@@ -43,3 +43,18 @@ Below are some screenshots that show the functionality of the app.
 - Below is a demo of the `BamazonCustomer.js` file...
   - Running `node BamazonCustomer.js` will use MySQL to pull up all the products for sale.
 
+
+
+#### Technologies Used:
+***
+
+* Javascript
+* nodeJS
+* MySQL
+* npm packages:
+	- [mysql](https://github.com/felixge/node-mysql)
+	- [prompt](https://github.com/flatiron/prompt)
+	- [colors/safe](https://github.com/Marak/colors.js)
+	- [cli-table](https://github.com/Automattic/cli-table)
+
+
