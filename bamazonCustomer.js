@@ -7,14 +7,13 @@ var prompt = require('prompt');                 // Prompt node package
 var mysql = require('mysql');                   // MySQL node package
 var validEntry = require('./validEntry.js');
 var oneCanNeverRemember = require('./keys.js');
-//var oneCanNeverRemember = password.password;
-//var colors = require('colors/safe');          // If time available, get fancy
+//var colors = require('colors/safe');          // If time available, add fancy colors
 
 var connection = mysql.createConnection({       // MySQL Database parameters
     host: "localhost",
     port: 3306,
     user: "root",                               // Username
-    password: process.env.password,             // 1CanNeverRemember          
+    password: process.env.password,             // password          
     database: "Bamazon"
 });
 
