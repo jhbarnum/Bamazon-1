@@ -1,4 +1,4 @@
-// ==========  Bamazon Node and MySQL App | Composed by John Kim | University of Richmond  ======================
+//            Bamazon Node and MySQL App | Composed by John Kim | University of Richmond 
 
 //      Required Dependencies
 require('dotenv').config();
@@ -33,8 +33,8 @@ function showUserInventory() {
 		console.log('Welcome to Bamazon');
 		console.log('Please check out our novelty items.');
 		console.log('-----------------------------------\n');
-		console.log('Item ID # |        Product Name          |      Department    | Price $');
-		console.log('---------------------------------------------------------------------\n');
+		console.log('Item ID # |        Product Name          |      Department    | Price $ |  Stock  ');
+		console.log('--------------------------------------------------------------------------------\n');
 
 		var stringOutput = '';
 		for (var i = 0; i < data.length; i++) {
@@ -43,12 +43,13 @@ function showUserInventory() {
 			stringOutput += '   # ' + data[i].item_id + '    |   ';
 			stringOutput += data[i].product_name + '  |  ';
 			stringOutput += data[i].department_name + '  |  ';
-			stringOutput += '$' + data[i].price + '\n';
+			stringOutput += '$' + data[i].price + ' | ';
+			stringOutput += data[i].stock_quantity + '\n';
 
 			console.log(stringOutput);
 		}
 
-	  	console.log('---------------------------------------------------------------------\n');
+	  	console.log('--------------------------------------------------------------------------------\n');
 
 	  	confirmPurchase();    	               	//Prompt the user for item/quantity they would like to purchase
 	})
