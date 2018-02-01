@@ -4,6 +4,7 @@
   "description": "node.js bamazon",
   "main": "bamazonCustomer.js",
   "dependencies": {
+    "dotenv": "^5.0.0",
     "mysql": "^2.15.0"
   },
   "devDependencies": {},
