@@ -11,8 +11,6 @@ A Node.js &amp; MySQL digital storefront - a command line node app that mimics t
 ### Node.js
 Three JavaScript files replicate the basics of a simple ecommerce engine:
   - Running `node BamazonCustomer.js` will use MySQL to pull up all the products for sale.
-
-- `BamazonCustomer.js`
   - Receives orders from customers via the command line and interfaces with mySQL to deplete stock from the store's inventory.
   
 ![Customer Page](/screenshots/customer.png)
