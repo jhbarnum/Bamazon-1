@@ -10,22 +10,25 @@ A Node.js &amp; MySQL digital storefront - a command line node app that mimics t
 
 ### Node.js
 Three JavaScript files replicate the basics of a simple ecommerce engine:
+  - Running `node BamazonCustomer.js` will use MySQL to pull up all the products for sale.
 
-- `BamazonCustomer.js` _([See example here](#customer))_
+- `BamazonCustomer.js`
   - Receives orders from customers via the command line and interfaces with mySQL to deplete stock from the store's inventory.
+  
 ![Customer Page](/screenshots/customer.png)
 
-- `BamazonManager.js` _([See example here](#manager))_
+- `BamazonManager.js`
   - Mimics the basics of a warehouse management system, providing managers with a list of options to view stock and adjust inventory.
   - A sample of the menu is below:
     * View Products for Sale 
     * View Low Inventory
     * Add to Inventory
     * Add New Product
+    
 ![Manager Page](/screenshots/manager.png)
 
 ### MySQL
-The JavaScript files mentioned above query a MySQL database called `Bamazon` which is locally hosted on my laptop.
+The JavaScript files mentioned above query a MySQL database called `Bamazon` which is locally hosted.
 
 - Please refer to the `Bamazon.sql` file to see how the database was created using raw SQL queries.
 
@@ -34,12 +37,6 @@ The JavaScript files mentioned above query a MySQL database called `Bamazon` whi
     1. If you are new to MySQL, please set up [MySQL](http://dev.mysql.com/downloads/mysql/) and [MySQL Workbench](http://dev.mysql.com/downloads/workbench/) on your laptop and then open up to your localhost connection.
     2. Run `CREATE DATABASE Bamazon;` in mySQL Workbench.
     3. Be sure to select the correct database by running the `USE Bamazon;` 
-
-<a name="customer"></a>
-- Below is a demo of the `BamazonCustomer.js` file...
-  - Running `node BamazonCustomer.js` will use MySQL to pull up all the products for sale.
-
-
 
 ### Technologies Used:
 ***
